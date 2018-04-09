@@ -1,0 +1,39 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Welcome to the NSCS Website Documentation!\n\n\nThe website is currently being hosted \nhere\n.\n\n\nInformation Pages\n\n\n\n\nAbout Us Page - A page that describes what NSCS is all about.\n\n\nFAQ Page - A page with many frequently asked questions.\n\n\nOfficers Page - A page with photos, positions, and contact information of all NSCS officers. \n\n\nGallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. See \n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#welcome-to-the-nscs-website-documentation", 
+            "text": "The website is currently being hosted  here .", 
+            "title": "Welcome to the NSCS Website Documentation!"
+        }, 
+        {
+            "location": "/#information-pages", 
+            "text": "About Us Page - A page that describes what NSCS is all about.  FAQ Page - A page with many frequently asked questions.  Officers Page - A page with photos, positions, and contact information of all NSCS officers.   Gallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. See", 
+            "title": "Information Pages"
+        }, 
+        {
+            "location": "/#project-layout", 
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "title": "Project layout"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "Welcome to the NSCS Website Documentation!\n\n\nWhat to use this for\n\n\nThis website is for whoever wants to learn how to use the brand new NSCS Member website. If you have questions, consult this website and browse its pages.\n\n\nIf you're still having trouble, that sucks.", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#welcome-to-the-nscs-website-documentation", 
+            "text": "", 
+            "title": "Welcome to the NSCS Website Documentation!"
+        }, 
+        {
+            "location": "/about/#what-to-use-this-for", 
+            "text": "This website is for whoever wants to learn how to use the brand new NSCS Member website. If you have questions, consult this website and browse its pages.  If you're still having trouble, that sucks.", 
+            "title": "What to use this for"
+        }
+    ]
+}

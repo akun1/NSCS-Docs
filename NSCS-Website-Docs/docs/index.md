@@ -1,13 +1,13 @@
-# Welcome to MkDocs
+# Welcome to the NSCS Website Documentation!
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+The website is currently being hosted [here](https://gentle-brook-56627.herokuapp.com/).
 
-## Commands
+## Information Pages
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+* About Us Page - A page that describes what NSCS is all about.
+* FAQ Page - A page with many frequently asked questions.
+* Officers Page - A page with photos, positions, and contact information of all NSCS officers. 
+* Gallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. See 
 
 ## Project layout
 
