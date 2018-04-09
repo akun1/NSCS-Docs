@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: NSCS Website Documentation
+theme_dir: cinder
+pages:
+    - Home: index.md
+    - About: about.md
