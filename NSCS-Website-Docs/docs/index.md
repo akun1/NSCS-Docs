@@ -34,6 +34,8 @@ If you're still having trouble, that sucks.
 
 You can access your AWS console [here](https://aws.amazon.com/).
 
+In AWS, we use S3 to store stuff. After you've logged into your console, you can configure anything you like. We'll have an indepth guide for AWS [here](aws.md).
+
 ## Sitemap
 
 The Sitemap is currently [here](https://www.gloomaps.com/sqEA9FVKX6).

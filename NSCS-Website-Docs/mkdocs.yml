@@ -1,3 +1,5 @@
 site_name: NSCS Website Documentation
 pages:
-    - Home: index.md
+  - Home: index.md
+  - Indepth Guides: 
+    - aws.md
