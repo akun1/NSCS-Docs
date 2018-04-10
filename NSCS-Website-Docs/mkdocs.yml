@@ -2,3 +2,4 @@ site_name: NSCS Website Documentation
 #theme_dir: cinder
 pages:
     - Home: index.md
+theme: readthedocs
