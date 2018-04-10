@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome to the NSCS Website Documentation!\n\n\nThe website is currently being hosted \nhere\n.\n\n\nInformation Pages\n\n\n\n\nAbout Us Page - A page that describes what NSCS is all about.\n\n\nFAQ Page - A page with many frequently asked questions.\n\n\nOfficers Page - A page with photos, positions, and contact information of all NSCS officers. \n\n\nGallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. See \n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
+            "text": "Welcome to the NSCS Website Documentation!\n\n\nThe website is currently being hosted \nhere\n.\n\n\nWhat is this?\n\n\nThis website is for whoever wants to learn how to use the brand new NSCS Member website. If you have questions, consult this website and browse its pages.\n\n\nIf you're still having trouble, that sucks.  \n\n\nImportant Pages\n\n\n\n\nAbout Us Page - A page that describes what NSCS is all about.\n\n\nFAQ Page - A page with many frequently asked questions.\n\n\nOfficers Page - A page with photos, positions, and contact information of all NSCS officers. \n\n\nGallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. Click \nhere\n to see our documentation for AWS S3.\n\n\n\n\nHow to Sign-In and Why\n\n\n\n\nSigning in allows your members to access data that only they should see, like their points!\n\n\nSigning in is super easy:\n\n\nClick on the \"Sign in\" link in the Navigation Bar in the top right hand corner.\n\n\nYou'll be directed to sign in using Google!\n\n\nAfter you've done so, you're in!\n\n\nTo logout, where the \"Sign in\" button used to be, you'll see a \"Sign out\" button. Click it and you'll be signed out.\n\n\n\n\n\n\n\n\nPACE Sign Up\n\n\n\n\nTo sign up for PACE, you must be logged in.\n\n\nOnce logged in, click on \"Profile\" page in Navigation Bar.\n\n\nOnce on Profile page, click \"PACE\" link.\n\n\n\n\nAWS\n\n\nYou can access your AWS console \nhere\n.\n\n\nIn AWS, we use S3 to store stuff. After you've logged into your console, you can configure anything you like. We'll have an indepth guide for AWS \nhere\n.\n\n\nSitemap\n\n\nThe Sitemap is currently \nhere\n.", 
             "title": "Home"
         }, 
         {
@@ -11,29 +11,49 @@
             "title": "Welcome to the NSCS Website Documentation!"
         }, 
         {
-            "location": "/#information-pages", 
-            "text": "About Us Page - A page that describes what NSCS is all about.  FAQ Page - A page with many frequently asked questions.  Officers Page - A page with photos, positions, and contact information of all NSCS officers.   Gallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. See", 
-            "title": "Information Pages"
-        }, 
-        {
-            "location": "/#project-layout", 
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Project layout"
-        }, 
-        {
-            "location": "/about/", 
-            "text": "Welcome to the NSCS Website Documentation!\n\n\nWhat to use this for\n\n\nThis website is for whoever wants to learn how to use the brand new NSCS Member website. If you have questions, consult this website and browse its pages.\n\n\nIf you're still having trouble, that sucks.", 
-            "title": "About"
-        }, 
-        {
-            "location": "/about/#welcome-to-the-nscs-website-documentation", 
-            "text": "", 
-            "title": "Welcome to the NSCS Website Documentation!"
-        }, 
-        {
-            "location": "/about/#what-to-use-this-for", 
+            "location": "/#what-is-this", 
             "text": "This website is for whoever wants to learn how to use the brand new NSCS Member website. If you have questions, consult this website and browse its pages.  If you're still having trouble, that sucks.", 
-            "title": "What to use this for"
+            "title": "What is this?"
+        }, 
+        {
+            "location": "/#important-pages", 
+            "text": "About Us Page - A page that describes what NSCS is all about.  FAQ Page - A page with many frequently asked questions.  Officers Page - A page with photos, positions, and contact information of all NSCS officers.   Gallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. Click  here  to see our documentation for AWS S3.", 
+            "title": "Important Pages"
+        }, 
+        {
+            "location": "/#how-to-sign-in-and-why", 
+            "text": "Signing in allows your members to access data that only they should see, like their points!  Signing in is super easy:  Click on the \"Sign in\" link in the Navigation Bar in the top right hand corner.  You'll be directed to sign in using Google!  After you've done so, you're in!  To logout, where the \"Sign in\" button used to be, you'll see a \"Sign out\" button. Click it and you'll be signed out.", 
+            "title": "How to Sign-In and Why"
+        }, 
+        {
+            "location": "/#pace-sign-up", 
+            "text": "To sign up for PACE, you must be logged in.  Once logged in, click on \"Profile\" page in Navigation Bar.  Once on Profile page, click \"PACE\" link.", 
+            "title": "PACE Sign Up"
+        }, 
+        {
+            "location": "/#aws", 
+            "text": "You can access your AWS console  here .  In AWS, we use S3 to store stuff. After you've logged into your console, you can configure anything you like. We'll have an indepth guide for AWS  here .", 
+            "title": "AWS"
+        }, 
+        {
+            "location": "/#sitemap", 
+            "text": "The Sitemap is currently  here .", 
+            "title": "Sitemap"
+        }, 
+        {
+            "location": "/aws/", 
+            "text": "Welcome to AWS and S3 Guide!\n\n\nWhy AWS?\n\n\nLorem markdownum. Dicturus volenti! Et tradita imago sola licet inde ignotos nec", 
+            "title": "Welcome to AWS and S3 Guide!"
+        }, 
+        {
+            "location": "/aws/#welcome-to-aws-and-s3-guide", 
+            "text": "", 
+            "title": "Welcome to AWS and S3 Guide!"
+        }, 
+        {
+            "location": "/aws/#why-aws", 
+            "text": "Lorem markdownum. Dicturus volenti! Et tradita imago sola licet inde ignotos nec", 
+            "title": "Why AWS?"
         }
     ]
 }

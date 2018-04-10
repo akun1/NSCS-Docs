@@ -48,8 +48,14 @@
                     <li class="active">
                         <a href=".">Home</a>
                     </li>
-                    <li >
-                        <a href="about/">About</a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Indepth Guides <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="aws/">Aws</a>
+</li>
+                        </ul>
                     </li>
                 </ul>
 
@@ -65,7 +71,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="about/">
+                        <a rel="prev" href="aws/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -78,27 +84,50 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#welcome-to-the-nscs-website-documentation">Welcome to the NSCS Website Documentation!</a></li>
-            <li><a href="#information-pages">Information Pages</a></li>
-            <li><a href="#project-layout">Project layout</a></li>
+            <li><a href="#what-is-this">What is this?</a></li>
+            <li><a href="#important-pages">Important Pages</a></li>
+            <li><a href="#how-to-sign-in-and-why">How to Sign-In and Why</a></li>
+            <li><a href="#pace-sign-up">PACE Sign Up</a></li>
+            <li><a href="#aws">AWS</a></li>
+            <li><a href="#sitemap">Sitemap</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="welcome-to-the-nscs-website-documentation">Welcome to the NSCS Website Documentation!</h1>
 <p>The website is currently being hosted <a href="https://gentle-brook-56627.herokuapp.com/">here</a>.</p>
-<h2 id="information-pages">Information Pages</h2>
+<h2 id="what-is-this">What is this?</h2>
+<p>This website is for whoever wants to learn how to use the brand new NSCS Member website. If you have questions, consult this website and browse its pages.</p>
+<p>If you're still having trouble, that sucks.  </p>
+<h2 id="important-pages">Important Pages</h2>
 <ul>
 <li>About Us Page - A page that describes what NSCS is all about.</li>
 <li>FAQ Page - A page with many frequently asked questions.</li>
 <li>Officers Page - A page with photos, positions, and contact information of all NSCS officers. </li>
-<li>Gallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. See </li>
+<li>Gallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. Click <a href=".#AWS">here</a> to see our documentation for AWS S3.</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<h2 id="how-to-sign-in-and-why">How to Sign-In and Why</h2>
+<ul>
+<li>Signing in allows your members to access data that only they should see, like their points!</li>
+<li>Signing in is super easy:<ul>
+<li>Click on the "Sign in" link in the Navigation Bar in the top right hand corner.</li>
+<li>You'll be directed to sign in using Google!</li>
+<li>After you've done so, you're in!</li>
+<li>To logout, where the "Sign in" button used to be, you'll see a "Sign out" button. Click it and you'll be signed out.</li>
+</ul>
+</li>
+</ul>
+<h2 id="pace-sign-up">PACE Sign Up</h2>
+<ul>
+<li>To sign up for PACE, you must be logged in.</li>
+<li>Once logged in, click on "Profile" page in Navigation Bar.</li>
+<li>Once on Profile page, click "PACE" link.</li>
+</ul>
+<h2 id="aws">AWS</h2>
+<p>You can access your AWS console <a href="https://aws.amazon.com/">here</a>.</p>
+<p>In AWS, we use S3 to store stuff. After you've logged into your console, you can configure anything you like. We'll have an indepth guide for AWS <a href="aws/">here</a>.</p>
+<h2 id="sitemap">Sitemap</h2>
+<p>The Sitemap is currently <a href="https://www.gloomaps.com/sqEA9FVKX6">here</a>.</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -180,5 +209,5 @@ docs/
 
 <!--
 MkDocs version : 0.17.3
-Build Date UTC : 2018-04-09 22:13:13
+Build Date UTC : 2018-04-10 11:42:54
 -->
