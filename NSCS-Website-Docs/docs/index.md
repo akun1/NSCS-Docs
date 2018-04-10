@@ -15,6 +15,16 @@ If you're still having trouble, that sucks.
 * Officers Page - A page with photos, positions, and contact information of all NSCS officers. 
 * Gallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. Click [here](aws.md) to see our documentation for AWS S3.
 
+## How to Sign-In and Why
+
+* Signing in allows your members to access data that only they should see, like their points!
+* Signing in is super easy:
+	* Click on the "Sign in" link in the Navigation Bar in the top right hand corner.
+	* You'll be directed to sign in using Google!
+	* After you've done so, you're in!
+	* To logout, where the "Sign in" button used to be, you'll see a "Sign out" button. Click it and you'll be signed out.
+
+
 ## Amazon Web Services: S3
 
 You can access your AWS console [here](https://aws.amazon.com/).
