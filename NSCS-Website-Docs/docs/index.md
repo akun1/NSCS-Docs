@@ -19,14 +19,17 @@ The home page contains three major components:
 * Announcements
 
 ##About Us Page
+**This page can be viewed by public, members, and admins**
 
 A page that describes what NSCS is all about.
 
 ##FAQ Page
+**This page can be viewed by public, members, and admins**
 
 A page with many frequently asked questions.
 
 ##Officers Page
+**This page can be viewed by public, members, and admins**
 
 A page with photos, positions, and contact information of all NSCS officers. 
 
