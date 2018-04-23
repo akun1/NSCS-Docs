@@ -85,10 +85,15 @@
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#welcome-to-the-nscs-website-documentation">Welcome to the NSCS Website Documentation!</a></li>
             <li><a href="#what-is-this">What is this?</a></li>
-            <li><a href="#important-pages">Important Pages</a></li>
             <li><a href="#how-to-sign-in-and-why">How to Sign-In and Why</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us-page">About Us Page</a></li>
+            <li><a href="#faq-page">FAQ Page</a></li>
+            <li><a href="#officers-page">Officers Page</a></li>
+            <li><a href="#gallery-page">Gallery Page</a></li>
+            <li><a href="#profile-page">Profile Page</a></li>
             <li><a href="#pace-sign-up">PACE Sign Up</a></li>
-            <li><a href="#aws">AWS</a></li>
+            <li><a href="#meetings-page">Meetings Page</a></li>
             <li><a href="#sitemap">Sitemap</a></li>
     </ul>
 </div></div>
@@ -98,35 +103,64 @@
 <p>The website is currently being hosted <a href="https://gentle-brook-56627.herokuapp.com/">here</a>.</p>
 <h2 id="what-is-this">What is this?</h2>
 <p>This website is for whoever wants to learn how to use the brand new NSCS Member website. If you have questions, consult this website and browse its pages.</p>
-<p>If you're still having trouble, that sucks.  </p>
-<h2 id="important-pages">Important Pages</h2>
-<ul>
-<li>About Us Page - A page that describes what NSCS is all about.</li>
-<li>FAQ Page - A page with many frequently asked questions.</li>
-<li>Officers Page - A page with photos, positions, and contact information of all NSCS officers. </li>
-<li>Gallery Page - A page where all media will be posted. The media can be uploaded by website admin through AWS S3 or Uploads page. Click <a href=".#AWS">here</a> to see our documentation for AWS S3.</li>
-</ul>
+<p>It is also important to note that on this site, the things a user sees depends on if they belong to the general public, the general NSCS member pool, or if they are a NSCS website admin. What follows is a decription of every page in this website. If you're wondering which pages can be seen by what party (public/member/admin), dont worry, it's under the page titles!   </p>
+<p>If you're still having trouble, you can contact Akash Kundu, Jasmin Cho, or Julian Tiu who are all A&amp;M students!</p>
 <h2 id="how-to-sign-in-and-why">How to Sign-In and Why</h2>
+<p><strong>This feature is only available for members and admins</strong></p>
 <ul>
 <li>Signing in allows your members to access data that only they should see, like their points!</li>
 <li>Signing in is super easy:<ul>
 <li>Click on the "Sign in" link in the Navigation Bar in the top right hand corner.</li>
-<li>You'll be directed to sign in using Google!</li>
-<li>After you've done so, you're in!</li>
-<li>To logout, where the "Sign in" button used to be, you'll see a "Sign out" button. Click it and you'll be signed out.</li>
+<li>You'll be directed to sign in using a Google email. <strong>Note: We recommend using a non-TAMU email.</strong></li>
+<li>After you've done so, you're in! You should be able to see your name in the upper right hand side of the website in the navigation bar.</li>
+<li>To logout, there's a little drop-down manu arrow next to your name in the navigation bar. Click it and you'll see a "Sign out" button. Click it and you'll be signed out.</li>
 </ul>
 </li>
 </ul>
-<h2 id="pace-sign-up">PACE Sign Up</h2>
+<h2 id="home">Home</h2>
+<p><strong>This page can be viewed by public, members, and admins</strong></p>
+<p>The home page contains three major components:</p>
 <ul>
-<li>To sign up for PACE, you must be logged in.</li>
-<li>Once logged in, click on "Profile" page in Navigation Bar.</li>
-<li>Once on Profile page, click "PACE" link.</li>
+<li>Title - Self explanatory.</li>
+<li>Calender - This calender will contain all the upcoming NSCS events</li>
+<li>Announcements - Self explanatory.</li>
 </ul>
-<h2 id="aws">AWS</h2>
+<p><strong>If you are logged in as an Admin</strong>, you'll be able to create new calender events via the "New Calender Event" link under the Calender!</p>
+<h2 id="about-us-page">About Us Page</h2>
+<p><strong>This page can be viewed by public, members, and admins</strong></p>
+<p>A page that describes what NSCS is all about. It's the same for all users.</p>
+<h2 id="faq-page">FAQ Page</h2>
+<p><strong>This page can be viewed by public, members, and admins</strong></p>
+<p>A page with many frequently asked questions.</p>
+<p><strong>If you're logged in as an Admin</strong>, you'll be able to add, edit, and delete the FAQ's as desired via the "Edit" and "Delete" links next to each FAQ and the "Add a New Question" link at the bottom of the page.</p>
+<h2 id="officers-page">Officers Page</h2>
+<p><strong>This page can be viewed by public, members, and admins</strong></p>
+<p>A page with photos, positions, and contact information of all NSCS officers. </p>
+<p><strong>If you're logged in as an Admin</strong>, you'll be able to add, edit, and delete the Officers as desired via the "Edit" and "Delete" links below each Officer entry at the bottom of the page. Moreover, you can add an Officer via the "Add New Officer" link also at the bottom of the page.</p>
+<h2 id="gallery-page">Gallery Page</h2>
+<p><strong>This page can be viewed by public, members, and admins</strong></p>
+<p>A page where all images from events and stuff can be posted. The media can be uploaded by a website Admin (that has the AWS login and password) through AWS S3 directly and will show up on this page. </p>
+<p>Additionally, any of the Gallery images will be able to be downloaded by anyone by simply clicking the image and downloading it from there.</p>
+<p><strong>So, what's AWS?</strong> Basically, Amazon Web Services (AWS) provides a service in which we can store the images NSCS wants to show off on the site. This service is called S3, and it is one of many services provided by AWS. </p>
 <p>You can access your AWS console <a href="https://aws.amazon.com/">here</a>.</p>
-<p>In AWS, we use S3 to store stuff. After you've logged into your console, you can configure anything you like. We'll have an indepth guide for AWS <a href="aws/">here</a>.</p>
+<p>After you've logged into your console, you can configure anything you like. We'll have an indepth guide for AWS <a href="aws/">here</a>.</p>
+<h2 id="profile-page">Profile Page</h2>
+<p><strong>This page can only be viewed by members and admins</strong></p>
+<p>When anyone logs in as a member, they will see their name on the upper right hand corner in the navigation bar. Next to there name, is a little drop-down arrow. When clicked, the link to view the Profile page can be seen.</p>
+<p>The profile page is different for every member. How different? Well, each member will have his/her points listed on this page.</p>
+<p><strong>If you're logged in as an Admin</strong>, you'll be able to add and delete points from the members via the "Add New Point" and "Delete" links on this page. Moreover, when adding points, the member you are assigning those points to will be identified by their email and the event that the points are being assigned to him/her for is also required.</p>
+<h2 id="pace-sign-up">PACE Sign Up</h2>
+<p><strong>This link can only be viewed by members and admins</strong></p>
+<p>Once you're on your Profile page, you'll see a link called "Volunteer Application" which will lead you to the PACE sign up.</p>
+<h2 id="meetings-page">Meetings Page</h2>
+<p><strong>This page can only be viewed by members and admins</strong></p>
+<p>This page is designed for members to be able to access and download files that were used in a NSCS meeting. </p>
+<p><strong>If you're logged in as an Admin</strong>, you can delete and upload files on this page. These files can be any type of file from a past meeting that you want to share with your members in case they needed them. For exmaple, if an important powerpoint was shown at a meeting, but many members could not make it to this meeting, then you could upload this powerpoint to this page for them to access and download. </p>
+<p><strong>Best Practice</strong>: When uploading a file, name the file something like "1/27/2018 Meeting 3" or something similar so your members know which meeting the file is for. </p>
 <h2 id="sitemap">Sitemap</h2>
+<p><strong>This is not a page on the website.</strong></p>
+<p>What is it then? </p>
+<p>It is a visual representation of the website in case you are a visual person and would like to understand the website layout better. Be careful, anyone with the following link can edit the Sitemap. The Sitemap is not mission critical or secret, but it's nice to have.</p>
 <p>The Sitemap is currently <a href="https://www.gloomaps.com/sqEA9FVKX6">here</a>.</p></div>
         </div>
 
@@ -209,5 +243,5 @@
 
 <!--
 MkDocs version : 0.17.3
-Build Date UTC : 2018-04-10 11:42:54
+Build Date UTC : 2018-04-23 06:15:08
 -->
